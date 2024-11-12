@@ -34,3 +34,7 @@ docker run -it \
   --db=ny_taxi \
   --table_name=yellow_taxi_data \
   --url=${URL}
+
+
+mage ai
+  docker-compose --env-file dev.env up --build
